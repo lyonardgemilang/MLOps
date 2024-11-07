@@ -1,0 +1,5 @@
+outs:
+- md5: 2959410781576cb9ffc60387cb382374
+  size: 3185
+  hash: md5
+  path: Decision_Tree_Model.joblib
