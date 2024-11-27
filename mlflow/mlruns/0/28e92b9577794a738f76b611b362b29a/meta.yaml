@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/28e92b9577794a738f76b611b362b29a/artifacts
+end_time: 1726205358551
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 28e92b9577794a738f76b611b362b29a
+run_name: vaunted-finch-485
+run_uuid: 28e92b9577794a738f76b611b362b29a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726205348983
+status: 3
+tags: []
+user_id: lyona

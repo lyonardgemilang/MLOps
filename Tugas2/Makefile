@@ -19,3 +19,4 @@ deploy:
 
 clean:
 	rm -rf $(DATA_DIR)/.csv $(MODELS_DIR)/.pkl $(RESULTS_DIR)/*.txt
+

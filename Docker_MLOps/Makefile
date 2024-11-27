@@ -34,17 +34,20 @@ all: env_conda
 		python $(SCRIPTS_DIR)/data_prep.py && \
 		python $(SCRIPTS_DIR)/train_model.py && \
 		python $(SCRIPTS_DIR)/evaluate_model.py; \
+		python $(SCRIPTS_DIR)/deploy_model.py; \
 	else \
 		if [ ! -d "$(CONDA_HOME)" ]; then \
 			. $(VENV_DIR)/bin/activate && \
 			python $(SCRIPTS_DIR)/data_prep.py && \
 			python $(SCRIPTS_DIR)/train_model.py && \
 			python $(SCRIPTS_DIR)/evaluate_model.py; \
+			python $(SCRIPTS_DIR)/deploy_model.py; \
 		else \
 			. $(CONDA_HOME)/bin/activate $(CONDA_ENV) && \
 			python $(SCRIPTS_DIR)/data_prep.py && \
 			python $(SCRIPTS_DIR)/train_model.py && \
 			python $(SCRIPTS_DIR)/evaluate_model.py; \
+			python $(SCRIPTS_DIR)/deploy_model.py; \
 		fi \
 	fi
 
